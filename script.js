@@ -15,7 +15,7 @@ function compute()
 }
 function updateRate() 
 {
-    var rate = document.getElementById("rate").value; // got an error message for this
+    var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
     output.innerHTML = rangeslider.value;
     rangeslider.onchange = function() {
